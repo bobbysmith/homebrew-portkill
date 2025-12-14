@@ -5,10 +5,10 @@ class Portkill < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bobbysmith/portkill/releases/download/v0.1.0/portkill-v0.1.0-aarch64-apple-darwin.zip"
+      url "https://github.com/bobbysmith/portkill/releases/download/v0.1.3/portkill-v0.1.0-aarch64-apple-darwin.zip"
       sha256 "2366e0bdba20e7c7ef7616f1a3e0b1cc31db67c5d7ccaa9e3331766dc8d113c3"
     else
-      url "https://github.com/bobbysmith/portkill/releases/download/v0.1.0/portkill-v0.1.0-x86_64-apple-darwin.zip"
+      url "https://github.com/bobbysmith/portkill/releases/download/v0.1.3/portkill-v0.1.0-x86_64-apple-darwin.zip"
       sha256 "ee24cdc444d380975a97cccc9202fab426b4d8f7e722675fa5f4e379e9f2688f"
     end
   end
