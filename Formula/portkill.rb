@@ -1,21 +1,21 @@
 class Portkill < Formula
   desc "A CLI utility to terminate processes listening on a TCP port"
   homepage "https://github.com/bobbysmith/portkill"
-  version "0.1.6"
+  version "0.1.7"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bobbysmith/portkill/releases/download/v0.1.6/portkill-v0.1.6-aarch64-apple-darwin.zip"
-      sha256 "290120637e1e5dbbe2fa83bad78b71985be1dc98e857b7eec9539e19ad96f718"
+      url "https://github.com/bobbysmith/portkill/releases/download/v0.1.7/portkill-v0.1.7-aarch64-apple-darwin.zip"
+      sha256 "16a567ba5ae1813b1cf7dbd96396237371bb43f1b81325c2e1e7e495fdf0f1c5"
     else
-      url "https://github.com/bobbysmith/portkill/releases/download/v0.1.6/portkill-v0.1.6-x86_64-apple-darwin.zip"
-      sha256 "e0bdcfe0c5aa412151f86e67992dd3bef2a8e0584e2b3e1a52bc23acc06aaa27"
+      url "https://github.com/bobbysmith/portkill/releases/download/v0.1.7/portkill-v0.1.7-x86_64-apple-darwin.zip"
+      sha256 "5c14ccea928a3556dbc2bbaf8acf28859d21892d6c9f2ec1764a2271718b4c83"
     end
   end
 
 on_linux do
-    url "https://github.com/bobbysmith/portkill/releases/download/v0.1.6/portkill-v0.1.6-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "a1739495caa8d8460fe2068320261632f5dc9b14bec02e4d2c651852242327d6"
+    url "https://github.com/bobbysmith/portkill/releases/download/v0.1.7/portkill-v0.1.7-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "6787ea655290e8673896a6085f4e62c0fea5d75b953bbf2e02648ac1029ee7bc"
   end
 
   def install
